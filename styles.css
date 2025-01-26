@@ -237,14 +237,14 @@ footer{
     border: 1px solid blue; 
     border-radius: 10px;
     background-color: white;
-    color: blue;
+    color: var(--blue);
     height: auto;
     display:grid;
     grid-template-columns: auto auto;
 }
 
 footer a{
-    color: blue;
+    color: var(--blue);
 }
 
  p{
