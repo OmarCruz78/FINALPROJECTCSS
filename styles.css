@@ -1,45 +1,64 @@
 
 :root {
-  --blue: #1e90ff;
-  --white: #ffffff;
+--blue: #1e90ff;
+--white: #ffffff;
 }
 
 *{
-  margin:0;
-  padding:0;
+margin:0;
+padding:0;
 }
 
 body{
-  font-family: Georgia, serif; 
-  font-size: 20px;
-  color: --blue;
-  background-color: --white;
+font-family: Georgia, serif; 
+font-size: 20px;
+color: --blue;
+background-color: --white;
 }
 
 .skip{
-    width: 100%;
-    height: 1.5em;
-    color:blue;
-    tabindex:0;
-
+width: 100%;
+height: 1.5em;
+color:blue;
+tabindex:0;
 }
 
 .skip:focus{
- 
 background-color: blue;
 color:white;
-
 }
 
+
+.skip-to-main-content-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 0.25em;
+  background-color: black;
+  color: white;
+  opacity: 0;
+  width: auto;  
+}
+
+.skip-to-main-content-link:focus {
+  left:0px;
+  /*transform: translateX(-50%);*/
+  opacity: 1;
+  /* height:15px;*/
+  display:block;
+  background-color: red;
+}
+
+
 header{
-    background-color: --blue;
-    color: --white;
-    margin: 2px;
-    position: sticky;
-    top: 0;
-    display: flex;
-    z-index:1000;
-  height:auto;
+background-color: --blue;
+color: --white;
+margin: 2px;
+position: sticky;
+top: 0;
+display: flex;
+z-index:1000;
+height:auto;
 }
 
 
@@ -57,7 +76,6 @@ nav{
 }
 
 nav>li{
-
     display: inline-block;
 }
 
@@ -65,19 +83,17 @@ a:hover{
     background-color: blue;
     color: white;
     border-radius: 10px;
-    transform: scale(0.5,0.5);
-
-
-
+    transform: scale(0.5,0.5)
 }
+
 .logo{
         border: 1px solid blue;
-width: 20%;
-margin: auto auto;
-height: auto;  
-border-radius: 10px;
-display:flex;
-justify-content: center;
+	width: 20%;
+	margin: auto auto;
+	height: auto;  
+	border-radius: 10px;
+	display:flex;
+	justify-content: center;
 }
 
 #img_logo {
@@ -104,6 +120,7 @@ a p{
     text-align: center;
     color: blue;
 }
+
 .header{
   margin: 0.5em;
   height: 40vh;
@@ -120,13 +137,12 @@ main{
 }
 
 h1{
-     text-align: center;
-     animation: rotate 5s ease-in-out backwards 3s;
-	animation-iteration-count: infinite;
-    animation-delay: 4s;
+  text-align: center;
+  animation: rotate 5s ease-in-out backwards 3s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
   margin: auto;
-   
-   padding-top: 2em;
+  padding-top: 2em;
  }
 
  h2{
@@ -139,10 +155,10 @@ h1{
  }
 
  .imagens{
-     display:grid;
-     grid-template-columns: auto auto auto;
-     column-gap: 2em;
-   margin: auto 2em;
+ display:grid;
+ grid-template-columns: auto auto auto;
+ column-gap: 2em;
+ margin: auto 2em;
  }
 
 @media only screen and (max-width: 600px) {
@@ -175,31 +191,28 @@ h1{
 .img:nth-child(1){
   animation: img 5s ease-in-out backwards 1s;}
    
-.img:nth-child(2){
-  
+.img:nth-child(2){  
   animation: img 5s ease-in-out backwards 2s;}
-
 
 .img:nth-child(3){
   animation: img 5s ease-in-out backwards 3s;}
   
-
-
 #img1{
   width: 100%;
   height: 250px;
 }
+
 #img2{
   width: 100%;
   height: 250px;
 }
 
-#img3{
+}#img3{
   width: 100%;
   height: 250px;
 }
 
- .img{
+.img{
      border: 1px solid blue;
      width: 100%;
      height: auto;
@@ -209,20 +222,13 @@ h1{
 
 article{
   display:block;
-  height:auto;
-  
+  height:auto;  
   border: 1px solid blue;
 }
 
-
-
-article p {
-  
+article p {  
   padding: 2em;
-  
-  
 }
-
 
 
 footer{
@@ -241,12 +247,12 @@ footer a{
     color: blue;
 }
 
- 
-
  p{
      line-height: 2em;
  }
 
+
+/*animation */
 @keyframes rotate {
 	from {
 		transform: scale(1.2,1.2) ;
@@ -275,25 +281,6 @@ transform: scale(0.9,0.9);
 }
 
 
-.skip-to-main-content-link {
-  position: absolute;
-  left: -9999px;
-  z-index: 999;
-  padding: 0.25em;
-  background-color: black;
-  color: white;
-  opacity: 0;
-  width: auto;
-  
-}
-.skip-to-main-content-link:focus {
-  left:0px;
-  /*transform: translateX(-50%);*/
-  opacity: 1;
- /* height:15px;*/
-  display:block;
-  background-color: red;
-}
 
 @keyframes img {
 	from {
@@ -382,27 +369,6 @@ a{
 color:#dfdfe2;
 }
 
-footer{
-    margin: 3px;
-    padding: 10px 20px;
-    border: 1px solid blue; 
-    border-radius: 10px;
-    background-color: white;
-    color: blue;
-    height: auto;
-    display:grid;
-    grid-template-columns: auto auto;
-}
-
-footer a{
-    color: blue;
-}
-
- 
-
- p{
-     line-height: 2em;
- }
 
 /* style gallery */
 
@@ -502,85 +468,31 @@ article{
 }
 
 
-
-article p {
-  
-  padding: 2em;
-  
-  
-}
-
-
-
-footer{
-    margin: 3px;
-    padding: 10px 20px;
-    border: 1px solid blue; 
-    border-radius: 10px;
-    background-color: white;
-    color: blue;
-    height: auto;
-    display:grid;
-    grid-template-columns: auto auto;
-}
-
-footer a{
-    color: blue;
-}
-
- 
-
- p{
-     line-height: 2em;
- }
-
 @keyframes rotate {
 	from {
-		transform: scale(1.2,1.2) ;
+	transform: scale(1.2,1.2) ;
         opacity:1;
 	}
 
     to {
-transform: scale(0.9,0.9);
+	transform: scale(0.9,0.9);
         opacity: 0.1;
-
     }
 }
 
 @keyframes h2 {
 	from {
-
-		transform: scale(0.3,0.3);
+	transform: scale(0.3,0.3);
         opacity: 0.1;
 	}
 
     to {
-		transform: scale(0.9,0.9);
+	transform: scale(0.9,0.9);
         opacity:1;
-
     }
 }
 
 
-.skip-to-main-content-link {
-  position: absolute;
-  left: -9999px;
-  z-index: 999;
-  padding: 0.25em;
-  background-color: black;
-  color: white;
-  opacity: 0;
-  width: auto;
-  
-}
-.skip-to-main-content-link:focus {
-  left:0px;
-  /*transform: translateX(-50%);*/
-  opacity: 1;
- /* height:15px;*/
-  display:block;
-  background-color: red;
-}
 
 @keyframes img {
 	from {
