@@ -12,8 +12,8 @@ padding:0;
 body{
 font-family: Georgia, serif; 
 font-size: 20px;
-color: --blue;
-background-color: --white;
+color: var(--blue);
+background-color: var(--white);
 }
 
 .skip{
@@ -24,8 +24,8 @@ tabindex:0;
 }
 
 .skip:focus{
-background-color: blue;
-color:white;
+background-color: var(--blue);
+color:var(--white);
 }
 
 
@@ -35,7 +35,7 @@ color:white;
   z-index: 999;
   padding: 0.25em;
   background-color: black;
-  color: white;
+  color: var(--white);
   opacity: 0;
   width: auto;  
 }
@@ -51,8 +51,8 @@ color:white;
 
 
 header{
-background-color: --blue;
-color: --white;
+background-color: var(--blue);
+color: var(--white);
 margin: 2px;
 position: sticky;
 top: 0;
@@ -63,7 +63,7 @@ height:auto;
 
 
 nav{   
-    color: --blue;
+    color: var(--blue);
     text-align: center;
     line-height: 2em;
     display: inline-block;
@@ -80,8 +80,8 @@ nav>li{
 }
 
 a:hover{
-    background-color: blue;
-    color: white;
+    background-color: var(--blue);
+    color: var(--white);
     border-radius: 10px;
     transform: scale(0.5,0.5)
 }
