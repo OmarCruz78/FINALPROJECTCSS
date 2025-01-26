@@ -3,6 +3,8 @@
 --blue: #1e90ff;
 --white: #ffffff;
 --blue_link: #1e00ff;
+--black: #000000;
+	
 }
 
 *{
@@ -35,7 +37,7 @@ color:var(--white);
   left: -9999px;
   z-index: 999;
   padding: 0.25em;
-  background-color: black;
+  background-color: var(--black);
   color: var(--white);
   opacity: 0;
   width: auto;  
