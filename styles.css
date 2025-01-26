@@ -445,19 +445,15 @@ color:#dfdfe2;
   height: 450px;
 }
 
- .img{
-     border: 1px solid blue;
+.img{
      width: 100%;
      height: auto;
-     border-radius: 5px;
  }
 
 
 article{
   display:block;
   height:auto;
-  
-  border: 1px solid blue;
 }
 
 
@@ -508,11 +504,8 @@ article{
 .flex-container {
   display: flex;
   flex-flow: row wrap;
-  
 }
   .flex-container > div {
-  border: 1px solid blue;
-  border-radius: 20px;
   background-color: #f1f1f1;
   width: 650px;
   height: auto;
