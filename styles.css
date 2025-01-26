@@ -87,12 +87,10 @@ a:hover{
     transform: scale(0.5,0.5)
 }
 
-.logo{
-        border: 1px solid blue;
+.logo{    
 	width: 20%;
 	margin: auto auto;
 	height: auto;  
-	border-radius: 10px;
 	display:flex;
 	justify-content: center;
 }
@@ -235,8 +233,6 @@ article p {
 footer{
     margin: 3px;
     padding: 10px 20px;
-    border: 1px solid blue; 
-    border-radius: 10px;
     background-color: var(--blue);
     color: var(--white);
     height: auto;
