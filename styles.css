@@ -2,6 +2,7 @@
 :root {
 --blue: #1e90ff;
 --white: #ffffff;
+--blue_link: #1e00ff;
 }
 
 *{
@@ -236,15 +237,15 @@ footer{
     padding: 10px 20px;
     border: 1px solid blue; 
     border-radius: 10px;
-    background-color: white;
-    color: var(--blue);
+    background-color: var(--blue);
+    color: var(--white);
     height: auto;
     display:grid;
     grid-template-columns: auto auto;
 }
 
 footer a{
-    color: var(--blue);
+    color: var(--blue_link);
 }
 
  p{
