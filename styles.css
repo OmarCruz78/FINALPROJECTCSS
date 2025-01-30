@@ -178,6 +178,7 @@ h1{
   height: auto;
 	padding: 1em;
 	border: 1px solid -blue;
+	rgba(240, 240, 240,0.5)
  }
 .imagens img{
   width: 80%;
