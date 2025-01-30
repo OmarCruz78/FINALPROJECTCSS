@@ -209,18 +209,6 @@ border-radius: 20px;
 
 
 
-
-
-
-.imagens img{
-  width: 100%;
-  height: 250px;
-}
-
-
-
-
-
 article{
   display:block;
   height:auto;  
@@ -370,12 +358,6 @@ flex-flow: row wrap;
 }
 
 
-/*
-
- .imagens:hover .img{
-  transform: rotateY(25deg);
-}
-
 .img:nth-child(1){
   animation: img 5s ease-in-out backwards 1s;}
    
@@ -387,7 +369,6 @@ flex-flow: row wrap;
 .img:nth-child(3){
   animation: img 5s ease-in-out backwards 3s;}
   
-*/
 
 figcaption{
    
