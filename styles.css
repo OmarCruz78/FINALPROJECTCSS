@@ -14,7 +14,7 @@
 body{
 font-family: Georgia, serif; 
 font-size: 20px;
-color: var(--blue);
+color: var(--black);
 background-color: var(--white);
 }
 
@@ -30,7 +30,7 @@ tabindex:0;
 
 .skip:focus{
 background-color: var(--blue);
-color:var(--white);
+color:var(--black);
 }
 
 
@@ -40,7 +40,7 @@ color:var(--white);
   z-index: 999;
   padding: 0.25em;
   background-color: var(--black);
-  color: var(--white);
+  color: var(--black);
   opacity: 0;
   width: auto;  
 }
@@ -58,7 +58,7 @@ color:var(--white);
 
 header{
 background-color: var(--blue);
-color: var(--red);
+color: var(--black);
 margin: 2px;
 position: sticky;
 top: 0;
@@ -81,7 +81,7 @@ nav{
 
 nav a:hover{
     background-color: var(--white);
-    color: var(--blue);		
+    color: var(--white);		
     border-radius: 10px;
    transform: scale(1.2, 1.2);
 }
@@ -107,7 +107,8 @@ margin-left: 1em;
 }
 
 a{
-color: var(--white);
+color: var(--black);
+font-family: cursive;	
 }
 
 a:link {
@@ -122,7 +123,7 @@ text-decoration: none;
 
 main{
     background-color: var(--white);
-    color: var(--blue);
+    color: var(--black);
     padding: 10px 10px;
     margin: 2px;
 }
@@ -186,8 +187,27 @@ h1{
 
 .gallery:nth-child(1){
  
-
+border-radius: 20px;
 }
+.gallery:nth-child(2){
+ 
+border-radius: 25px;
+}
+.gallery:nth-child(3){
+ 
+border-radius: 30px;
+}
+.gallery:nth-child(4){
+ 
+border-radius: 35px;
+}
+.gallery:nth-child(5){
+ 
+border-radius: 20px;
+}
+
+
+
 
 
 
@@ -215,14 +235,16 @@ footer{
     margin: 3px;
     padding: 10px 20px;
     background-color: var(--blue);
-    color: var(--white);
+    color: var(--black);
     height: auto;
     display:grid;
     grid-template-columns: auto auto;
 }
 
 footer a{
-    color: var(--blue_link);
+    color: var(--black);
+	font-family: cursive;
+	
 }
 
  p{
@@ -380,11 +402,6 @@ figcaption{
   height: 350px;
 } 
 
-/*
-#img9{
-  width: 450px;
-  height: 450px;
-}
 
 
 @keyframes rotate {
@@ -398,7 +415,7 @@ figcaption{
         opacity: 0.1;
     }
 }
-*/
+
 @keyframes h2 {
 	from {
 	transform: scale(0.3,0.3);
