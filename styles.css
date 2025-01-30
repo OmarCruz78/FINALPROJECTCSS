@@ -157,26 +157,23 @@ h1{
      display:block;
      margin: auto 2em;   
   }
-
   #img_logo{
     width:width: 90px;
     position: relative;
     height: 50px; 
   } 
-  
-  
   footer{
     column-gap: 2em;
   }
-  
 }
 
 .img{
 width: 100%;
 height: auto;
 padding: 1em;
-border: 1px solid -blue;
+border: 1px solid var(--blue);
 background-color: var(--bluelight);
+text-align: center;
 }
 .imagens img{
   width: 80%;
