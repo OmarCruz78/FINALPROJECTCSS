@@ -9,7 +9,7 @@
 --red: #f90000;	
 --blue_link: #1e00ff;
 --black: #000000;
---bluelight: rgba(240, 240, 240,0.5)
+--bluelight: rgba(200, 200, 200,0.5);
 }
 
 body{
@@ -126,7 +126,6 @@ main{
     background-color: var(--white);
     color: var(--black);
     padding: 10px 10px;
-    margin: 2px;
 }
 
 h1{
@@ -151,7 +150,6 @@ h1{
  display:grid;
  grid-template-columns: auto auto auto;
  column-gap: 2em;
- margin: auto 2em;
  }
 
 @media only screen and (max-width: 600px) {
@@ -174,17 +172,16 @@ h1{
 }
 
 .img{
-  width: 100%;
-  height: auto;
-	padding: 1em;
-	border: 1px solid -blue;
-	rgba(240, 240, 240,0.5)
- }
+width: 100%;
+height: auto;
+padding: 1em;
+border: 1px solid -blue;
+backgroun-color: var(--bluelight)
+}
 .imagens img{
   width: 80%;
-  height: 350px;
-	border-radius: 15px
-	padding: 0.5em;
+height: 350px;
+padding: 0.5em;
 } 
 
 
