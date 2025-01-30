@@ -326,27 +326,6 @@ flex-flow: row wrap;
 }
 
 
-.gallery:nth-child(1){
- 
-border-radius: 20px;
-}
-.gallery:nth-child(2){
- 
-border-radius: 25px;
-}
-.gallery:nth-child(3){
- 
-border-radius: 30px;
-}
-.gallery:nth-child(4){
- 
-border-radius: 35px;
-}
-.gallery:nth-child(5){
- 
-border-radius: 20px;
-}
-
 
  @media only screen and (max-width: 600px) {
    .flex-container{
