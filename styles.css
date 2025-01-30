@@ -58,7 +58,7 @@ color:var(--white);
 
 header{
 background-color: var(--blue);
-color: var(--white);
+color: var(--red);
 margin: 2px;
 position: sticky;
 top: 0;
