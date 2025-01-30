@@ -9,6 +9,7 @@
 --red: #f90000;	
 --blue_link: #1e00ff;
 --black: #000000;
+--bluelight: rgba(240, 240, 240,0.5)
 }
 
 body{
@@ -176,11 +177,13 @@ h1{
   width: 100%;
   height: auto;
 	padding: 1em;
+	border: 1px solid -blue;
  }
 .imagens img{
   width: 80%;
   height: 350px;
 	border-radius: 15px
+	padding: 0.5em;
 } 
 
 
@@ -320,6 +323,8 @@ flex-flow: row wrap;
   line-height: 25px;
   font-size:18px;
   padding-top: 1em;
+	 border: 1px solid --blue;
+	 
   
 }
 
@@ -363,6 +368,8 @@ figcaption{
   width: 80%;
   height: 350px;
   border-radius: 15px
+	padding:0.5em;
+	
 } 
 
 
