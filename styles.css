@@ -176,7 +176,7 @@ width: 100%;
 height: auto;
 padding: 1em;
 border: 1px solid -blue;
-backgroun-color: var(--bluelight)
+background-color: var(--bluelight);
 }
 .imagens img{
   width: 80%;
