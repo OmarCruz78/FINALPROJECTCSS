@@ -77,10 +77,6 @@ nav{
     flex-grow: 2;
     margin: 1px;
 }
-/*
-nav>li{
-    display: inline-block;
-}*/
 
 a:hover{
     background-color: var(--white);
@@ -136,7 +132,7 @@ h1{
   animation-iteration-count: infinite;
   animation-delay: 4s;
   margin: auto;
-  padding-top: 2em;
+  padding-top: 1em;
  }
 
  h2{
@@ -189,32 +185,18 @@ h1{
 
 .gallery:nth-child(1){
  
-border: 2px solid red;
+
 }
-/*   
-.img:nth-child(2){  
-  animation: img 5s ease-in-out backwards 2s;}
-
-.img:nth-child(3){
-  animation: img 5s ease-in-out backwards 3s;}
-*/  
 
 
 
-#img1{
+
+.imagens img{
   width: 100%;
   height: 250px;
 }
 
-#img2{
-  width: 100%;
-  height: 250px;
-}
 
-#img3{
-  width: 100%;
-  height: 250px;
-}
 
 
 
@@ -335,8 +317,7 @@ flex-flow: row wrap;
   text-align: center;
   line-height: 25px;
   font-size:18px;
-   border: 1px solid blue;
-   padding-top: 1em;
+  padding-top: 1em;
   
 }
 
@@ -386,37 +367,18 @@ flex-flow: row wrap;
 */
 
 figcaption{
-  border: 2px solid blue; 
+   
   width: 80%;
   margin: auto;
   margin-bottom: 1em;
   
 }
 
-#img4 {
+.gallery img{
   width: 80%;
-  height: 80%;
-  
-}
-#img5 {
-  width: 80%;
-  height: 250px;
-}
+  height: 350px;
+} 
 
-#img6 {
-  width: 80%;
-  height: 250px;
-}
-  
-#img7 {
-  width: 80%;
-  height: 450px;
-}
-  
-#img8 {
-  width: 80%;
-  height: 450px;
-}
 /*
 #img9{
   width: 450px;
@@ -435,7 +397,7 @@ figcaption{
         opacity: 0.1;
     }
 }
-
+*/
 @keyframes h2 {
 	from {
 	transform: scale(0.3,0.3);
@@ -464,4 +426,3 @@ figcaption{
     }
 }
 
-*/
